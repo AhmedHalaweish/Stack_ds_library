@@ -48,9 +48,11 @@ int main()
 	ret = stack_init(&Stack2);
 	if (ret == R_NOK)
 	{
-		printf("stack2 failed to be initialized !! \n");
+		printf("stack1 failed to be initialized !! \n");
 	}
-	else {}
+	else {
+		printf("stack1 is initialized !! \n");
+	}
 
 	return 0;
 }
